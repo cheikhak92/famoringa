@@ -177,13 +177,19 @@ section{
     display: flex;
     justify-content: space-between;
 }
-
+.transpa{
+    color: #000;
+    margin-bottom: 20px;
+}
 .row .col50{
     position: relative;
     width: 48%;
     justify-content: center;
     align-items: center;
 
+}
+.vocation{
+    margin-top: 50px;
 }
 
 .row .col50 h2{
@@ -198,6 +204,16 @@ section{
     margin-top: 0px;
     font-size:xx-large;
     display: inline-block;
+}
+.titre-textevents{
+    color: #000000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    font-size:xx-large;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .titre-texteSLOGAN{
     color: #13C219;
@@ -261,6 +277,7 @@ section{
     margin: 20px;
     border: 20px solid #fff;
     box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+    margin-top: ;
 }
 
 .menu .contenu .box .imbox{
@@ -427,7 +444,7 @@ text3{
     display: inline-block;
 }
 .positionmontrolland{
-margin-top: 20px;
+margin-top: 15px;
 }
 
 
@@ -597,6 +614,7 @@ header.sticky .menuToggle{
 
 .banniere .contenu h2{
     font-size: 2em;
+    color: #000;
 }
 
 .row .col50 img{
