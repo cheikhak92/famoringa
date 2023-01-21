@@ -1,0 +1,15 @@
+.intro-header {
+    height: unset !important;
+  }
+.spacer{
+    flex: 1 1 auto; 
+}   
+.logo{
+  color: #000000;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+}
+.logo span{
+  color: #13C219;
+}

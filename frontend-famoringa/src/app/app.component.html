@@ -1,0 +1,56 @@
+
+ <mat-toolbar style = "background-color: #ffffffec !important;"  class="mat-elevation-z8">
+    <mat-toolbar-row>
+        <a href="#" class="logo"><span>Fam</span>Moringa</a>
+            <div class="spacer"></div>
+            <!-- <button mat-icon-button fxShow="true" fxHide.gt-sm><mat-icon>menu</mat-icon></button> -->
+            <a style="color: rgb(0, 0, 0);" mat-button routerLink = "accueil">
+                Accueil
+            </a>
+            <a style="color: rgb(5, 4, 4);" mat-button routerLink = "propos">
+                    A propos
+            </a>
+            <a style="color: rgb(0, 0, 0);" mat-button routerLink = "produit">
+                Nos produits
+            </a>
+            <a style="color: rgb(0, 0, 0);" mat-button  routerLink = "evenements">
+                Nos Évènements 
+            </a>
+            <a style="color: rgb(0, 0, 0);" mat-button routerLink = "temoignage">
+                Témoignages 
+            </a>
+            <a style="color: rgb(0, 0, 0);" mat-button routerLink = "contact">
+                Contact 
+            </a>
+            <!-- <a style="color: rgb(0, 0, 0);" mat-button routerLink = "contact" color="accent" (click)="sidenav.toggle();">
+                <span class="material-symbols-outlined" color="accent">
+                    trolley
+                </span>
+                Contact 
+            </a> -->
+            <button mat-icon-button mat-raised-button style="color: rgb(43, 138, 26);">
+                <mat-icon (click)="sidenav.toggle();"> 
+                    <span class="material-symbols-outlined">
+                        trolley
+                    </span>
+                </mat-icon>
+            </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav #sidenav opened="true" position="end">
+        <mat-nav-list>
+            <a mat-list-item>Article:</a>
+            <a mat-list-item>Quantité:</a>
+            <a mat-list-item>Prix Unitaire:</a>
+            <a mat-list-item>Prix Total:</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 88vh;">
+            <main [@routeAnimations]="prepareRoute(outlet)" class="content">
+                <router-outlet #outlet="outlet"></router-outlet>
+            </main>        
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>  

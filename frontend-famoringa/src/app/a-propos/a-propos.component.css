@@ -1,0 +1,33 @@
+ .view {
+    height: 100vh !important; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .center-image {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    display: flex;
+    height: 300px;
+    background-color: #483BD5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align:center;
+    color: aliceblue;
+  }

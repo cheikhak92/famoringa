@@ -1,0 +1,81 @@
+.banniere{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/images/famoringapic2.jpg);
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  background-position: 120px;
+}
+
+.banniere .contenu{
+  max-width: 70%;
+  text-align: center;
+}
+.banniere .contenu h2{
+  color: #fff;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+  color: #ffff;
+  font-size: 1.2em;
+}
+
+.btn1{
+  font-size: 1em;
+  color: #fff;
+  background: #13C219;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+.btn2{
+  font-size: 1em;
+  color: #fff;
+  background: #2a4963;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+
+.btn1:hover{
+  letter-spacing: 4px;
+  }
+  .writingdescription1{
+    margin-top: 200px;
+    font-style: italic;
+    font-feature-settings: "aalt";
+    
+}
+.soulign1{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.soulign2{
+    color: #13C219;
+    margin-bottom: 30px;
+
+}
+.writingdescription2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+  

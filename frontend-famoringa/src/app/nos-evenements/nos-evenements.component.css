@@ -1,0 +1,117 @@
+.view {
+    height: 100vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .center-image {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    display: flex;
+    height: 300px;
+    background-color: #483BD5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align:center;
+    color: aliceblue;
+  }
+
+  .center1{
+    display: flex;
+    height: 300px;
+    background-color: #01011f;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    text-align:center;
+    color: aliceblue;
+  }
+
+  .produitsetservices{
+    margin-top: -100px;
+}
+
+.produitsetservices .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.produitsetservices .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+}
+
+.produitsetservices .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.produitsetservices .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.produitsetservices .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+
+.produitsetservices .contenu .box .text h3{
+    font-weight: 400;
+}
+#btn1{
+    text-align: center;
+}
+.produitsetservices .titre2 button{
+    padding: 15px;
+    background: #fb911f;    
+    color: #BD180D;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.produitsetservices .contenu{
+    margin-top: 0px;
+}
+
